@@ -1,0 +1,99 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+}
+
+h1 {
+    color: #6CB1EA;
+    text-shadow: #2C312B -1px 1px 0.4px;
+}
+
+.hero {
+    position: relative;
+    margin: auto;
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(182, 214, 254, 0.153)), url("images/dupnitsa-long.jpg");
+    background-size: cover;
+    width: 760px;
+    height: 360px;
+}
+
+.hero:hover {
+    background-image: url("images/dupnitsa-long.jpg");
+}
+
+.hero h2 {
+    color: #91be3e;
+    text-shadow: #2C312B -1px 1px 0.4px;
+}
+
+#to-visit {
+    display: flex;
+    justify-content:space-around;
+    background-color: #d2f58d66;
+    padding: 20px;
+}
+
+#to-visit div {
+    width: 30%;
+}
+
+.to-visit-img {
+    width: 140px;
+    border-radius: 12px;
+    transition-duration: 500ms;
+    transition-property: width;
+}
+
+.to-visit-img:hover {
+    width: 150px;
+}
+
+#activities {
+    text-align: center;
+}
+
+.description {
+    font-weight: bold;
+}
+
+.to-do {
+    margin: 0 5px;
+}
+
+#guide {
+    width: 400px;
+    display: flex;
+    position: relative;
+    margin: 30px auto;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(246, 219, 185, 0.675);
+}
+
+#guide h4 {
+    font-style: italic;
+}
+
+#guide h3, #guide h4 {
+    color: #e439cd;
+    text-decoration: underline;
+}
+
+#petar-img {
+    width: 150px;
+    margin: 6px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
